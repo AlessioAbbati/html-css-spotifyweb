@@ -5,7 +5,16 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+i {
+    color: white;
+}
 /* MAIN */
 
 main {
@@ -51,6 +60,7 @@ main {
 .small-logo {
     display: none;
 }
+
 @media (max-width: 600px) {
     .headbar {
         left: 2rem;
