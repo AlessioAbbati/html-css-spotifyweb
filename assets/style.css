@@ -8,12 +8,19 @@
 ul {
     list-style: none;
 }
+li {
+    margin-bottom: .7rem;
+}
 a {
     text-decoration: none;
+    color: gray;
+}
+a:hover {
+    cursor: pointer;
     color: white;
 }
 i {
-    color: white;
+    color: gray;
 }
 /* MAIN */
 
@@ -56,6 +63,29 @@ main {
     position: absolute;
     top: 0;
     left: 0;
+    font-size: .8rem;
+}
+.menu {
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.logo {
+    width: 60%;
+    margin-bottom: 1rem;
+}
+.playlist {
+    color: white;
+    margin-bottom: .5rem;
+}
+.plus {
+    font-size: 2rem;
+    margin-right: .3rem;
+}
+.leftbar .menu p {
+    margin-bottom: .7rem;
+}
+.leftbar .menu p a {
+    vertical-align: middle;
 }
 .small-logo {
     display: none;
