@@ -100,14 +100,14 @@ hr {
     margin-right: .3rem;
 }
 .name {
-    color: gray;
+    color: white;
     margin-top: .4rem;
 }
 .user {
     color: gray;
     margin-right: .3rem;
 }
-.small-logo {
+.small-logo, .house, .glass, .lines, .foot-arrow, .foot-user {
     display: none;
 }
 
@@ -123,10 +123,24 @@ hr {
     .leftbar {
         width: 2rem;
     }
-    .small-logo {
-        display: block;
+    .menu {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    .logo {
+    .small-logo {
+        width: 60%;
+    }
+    .small-logo, .house, .glass, .lines, .foot-arrow, .foot-user {
+        display: block;
+        margin-bottom: .7rem;
+    }
+    .foot-arrow {
+        margin-top: 30rem;
+        font-size: .5rem;
+    }
+    .logo, ul, .playlist, .p-1, .p-2, hr, .name {
         display: none;
     }
 }
