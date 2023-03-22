@@ -5,3 +5,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* MAIN */
+
+.headbar {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.container {
+    background-color: yellow;
+}
+.leftbar {
+    background-color: black;
+}
+.footbar {
+    background-color: #282828;
+}
