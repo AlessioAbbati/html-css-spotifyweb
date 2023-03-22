@@ -19,6 +19,17 @@ main {
     left: 10rem;
     top: 0;
     z-index: 99;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.head-btn {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 3rem;
+    padding-inline: 1rem;
+    height: 50%;
 }
 .container {
     background-color: yellow;
