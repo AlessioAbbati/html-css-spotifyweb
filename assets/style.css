@@ -8,15 +8,40 @@
 
 /* MAIN */
 
+main {
+    position: relative;
+}
 .headbar {
     background-color: rgba(0, 0, 0, 0.2);
+    height: 5rem;
+    width: calc(100% - 10rem);
+    position: absolute;
+    left: 10rem;
+    top: 0;
+    z-index: 99;
 }
 .container {
     background-color: yellow;
+    height: calc(100vh - 5rem);
+    width: calc(100% - 10rem);
+    overflow-y: auto;
+    position: absolute;
+    left: 10rem;
 }
 .leftbar {
     background-color: black;
+    width: 10rem;
+    height: calc(100vh - 5rem);
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .footbar {
     background-color: #282828;
+    height: 5rem;
+    width: 100%;
+    position: absolute;
+    top: calc(100vh - 5rem);
+    
+    
 }
