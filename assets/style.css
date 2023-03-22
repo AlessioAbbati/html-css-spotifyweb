@@ -96,6 +96,7 @@ img {
 }
 .container .row .content h4 {
     color: white;
+    margin-top: 1rem;
 }
 .container .row .content p {
     color: gray;
