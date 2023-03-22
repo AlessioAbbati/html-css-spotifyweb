@@ -48,6 +48,9 @@ main {
     top: 0;
     left: 0;
 }
+.small-logo {
+    display: none;
+}
 @media (max-width: 600px) {
     .headbar {
         left: 2rem;
@@ -60,6 +63,12 @@ main {
     .leftbar {
         width: 2rem;
     }
+    .small-logo {
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
 }
 .footbar {
     background-color: #282828;
@@ -67,4 +76,6 @@ main {
     width: 100%;
     position: absolute;
     top: calc(100vh - 5rem);
+    position: fixed;
+    bottom: 0;
 }
