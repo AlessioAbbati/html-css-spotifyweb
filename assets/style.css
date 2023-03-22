@@ -81,11 +81,31 @@ main {
     font-size: 2rem;
     margin-right: .3rem;
 }
-.leftbar .menu p {
+.leftbar .menu .p-1 {
     margin-bottom: .7rem;
 }
 .leftbar .menu p a {
     vertical-align: middle;
+}
+.p-2 {
+    margin-top: 7rem;
+    margin-bottom: .4rem;
+}
+hr {
+    color: gray;
+    margin-right: .7rem;
+}
+.arrow {
+    font-size: .5rem;
+    margin-right: .3rem;
+}
+.name {
+    color: gray;
+    margin-top: .4rem;
+}
+.user {
+    color: gray;
+    margin-right: .3rem;
 }
 .small-logo {
     display: none;
