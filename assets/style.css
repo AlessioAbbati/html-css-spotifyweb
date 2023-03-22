@@ -40,7 +40,7 @@ main {
     justify-content: flex-end;
 }
 .head-btn {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
     border: 1px solid white;
     border-radius: 3rem;
@@ -48,6 +48,9 @@ main {
     height: 50%;
     margin-right: 1rem;
 }
+
+/*CONTAINER*/
+
 .container {
     background-color: #141922;
     height: calc(100vh - 5rem);
@@ -56,6 +59,23 @@ main {
     position: absolute;
     left: 10rem;
 }
+.c-list {
+    display: flex;
+    justify-content: center;
+    font-size: .6rem;
+    margin-top: 6rem;
+}
+.c-list li {
+    padding-inline: .6rem;
+} 
+.container .c-list li hr {
+    margin-top: .1rem;
+    color: #ADFF2F;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+}
+/*LEFTBAR*/
+
 .leftbar {
     background-color: black;
     width: 10rem;
