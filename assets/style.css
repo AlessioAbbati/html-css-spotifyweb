@@ -75,7 +75,7 @@ main {
 .c-list li {
     padding-inline: .6rem;
 } 
-.container .c-list li hr {
+.container .c-list li .list-line {
     margin-top: .1rem;
     color: #ADFF2F;
     margin-left: 1.3rem;
@@ -97,6 +97,26 @@ main {
     align-items: center;
     /*flex: 0 0 calc(100% - 5) / 6;*/
     width: calc(100% / 6);
+    position: relative;
+}
+.play {
+    position: absolute;
+    font-size: 3rem;
+    left: calc(100% - 3rem) / 2;
+    color: white;
+    opacity: 0;
+}
+.play-1 {
+    top: calc(100% / 4.5);
+}
+.play-2 {
+    top: calc(100% / 3);
+}
+.play-3 {
+    top: calc(100% / 3);
+}
+.play:hover {
+    opacity: 1;
 }
 .container .row .content img {
     width: 100%;
@@ -166,7 +186,7 @@ main {
 .p-2 {
     margin-bottom: .4rem;
 }
-hr {
+.end-line {
     color: gray;
     margin-right: .7rem;
 }
@@ -251,6 +271,7 @@ hr {
     bottom: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     z-index: 9;
 }
 .footbar-sx {
@@ -286,4 +307,30 @@ hr {
 }
 .footbar .footbar-sx .text p {
     font-size: .6rem;
+}
+.footbar-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footbar .footbar-cnt .music .white, .gray {
+    display: inline-block;
+}
+.footbar .footbar-cnt .music .white {
+    color: white;
+    width: 3rem;
+}
+.footbar .footbar-cnt .music .gray {
+    color: gray;
+    width: 6rem;
+}
+.media {
+    font-size: 1.5rem;
+}
+.music {
+    display: flex;
+}
+.footbar-dx {
+    display: flex;
 }
