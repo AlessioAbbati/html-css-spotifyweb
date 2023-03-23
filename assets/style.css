@@ -263,12 +263,26 @@ hr {
 }
 .footbar .footbar-sx .text {
     margin-left: .7rem;
+    display: flex;
+    flex-direction: column;
+}
+.footbar .footbar-sx .text h5 {
+    color: white;
 }
 .footbar .footbar-sx .items {
     margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
 }
 .footbar .footbar-sx .items i {
     margin-right: .5rem;
+}
+.footbar .footbar-sx .items i:hover {
+    cursor: pointer;
+    color: white;
+}
+.footbar .footbar-sx .items .heart {
+    margin-bottom: .3rem;
 }
 .footbar .footbar-sx .text p {
     font-size: .6rem;
