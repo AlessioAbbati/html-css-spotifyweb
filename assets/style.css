@@ -128,6 +128,8 @@ main {
     font-size: .8rem;
 }
 .menu {
+    height: calc(100vh - 6rem);
+    position: relative;
     margin-top: 1rem;
     margin-left: 1rem;
 }
@@ -153,8 +155,11 @@ main {
 .leftbar .menu p a {
     vertical-align: middle;
 }
+.end {
+    position: absolute;
+    bottom: .5rem;
+}
 .p-2 {
-    margin-top: 7rem;
     margin-bottom: .4rem;
 }
 hr {
@@ -170,8 +175,12 @@ hr {
     margin-top: .4rem;
 }
 .user {
-    color: gray;
+    width: 10%;
+    color: white;
+    background-color: gray;
+    border-radius: 50%;
     margin-right: .3rem;
+    vertical-align: middle;
 }
 .small-logo, .house, .glass, .lines, .foot-arrow, .foot-user {
     display: none;
@@ -190,6 +199,7 @@ hr {
         width: 2rem;
     }
     .menu {
+        height: calc(100vh - 5rem);
         margin: auto;
         display: flex;
         flex-direction: column;
@@ -205,9 +215,20 @@ hr {
     .house, .glass, .lines {
         width: 70%;
     }
+    .end {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        bottom: 0;
+    }
     .foot-arrow {
-        margin-top: 30rem;
         font-size: .5rem;
+    }
+    .foot-user {
+        width: 70%;
+        color: white;
+        background-color: gray;
+        border-radius: 50%;
     }
     .logo, ul, .playlist, .p-1, .p-2, hr, .name {
         display: none;
