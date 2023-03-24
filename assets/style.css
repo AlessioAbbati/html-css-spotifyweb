@@ -13,10 +13,16 @@ li {
 }
 a {
     text-decoration: none;
+    opacity: .7;
     color: gray;
 }
 a:hover {
     cursor: pointer;
+    opacity: 1;
+    color: white;
+}
+.plus:hover {
+    opacity: 1;
     color: white;
 }
 i {
@@ -182,6 +188,9 @@ main {
     width: 15%;
     vertical-align: middle;
 }
+.house-2 {
+    border-left: 2px solid #ADFF2F;
+}
 .playlist {
     color: white;
     margin-bottom: .5rem;
@@ -200,7 +209,6 @@ main {
 .end {
     position: absolute;
     bottom: .5rem;
-    
 }
 .p-2 {
     margin-bottom: .4rem;
