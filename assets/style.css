@@ -312,11 +312,12 @@ main {
     z-index: 9;
 }
 .footbar-sx {
+    width: 20%;
     display: flex;
     align-items: center;
 }
 .footbar .footbar-sx img {
-    width: 10%;
+    max-width: 20%;
     margin-left: .7rem;
 }
 .footbar .footbar-sx .text {
@@ -346,6 +347,7 @@ main {
     font-size: .6rem;
 }
 .footbar-cnt {
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -355,12 +357,19 @@ main {
     display: inline-block;
 }
 .footbar .footbar-cnt .music .white {
-    color: white;
-    width: 3rem;
+    width: 6rem;
+    background-color: white;
+    height: 2px;
+    margin-top: .5rem;
 }
 .footbar .footbar-cnt .music .gray {
-    color: gray;
-    width: 6rem;
+    background-color: gray;
+    width: 12rem;
+    height: 2px;
+    margin-top: .5rem;
+}
+.footbar .footbar-cnt .music p {
+    
 }
 .media {
     font-size: 1.5rem;
@@ -369,5 +378,8 @@ main {
     display: flex;
 }
 .footbar-dx {
+    width: 20%;
     display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
 }
