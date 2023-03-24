@@ -82,6 +82,9 @@ main {
 .c-list li {
     padding-inline: .6rem;
 } 
+.container .c-list li:hover {
+    border-bottom: 2px solid #ADFF2F;
+}
 .container .c-list li .list-line {
     margin-top: .1rem;
     color: #ADFF2F;
@@ -277,6 +280,7 @@ main {
         flex-direction: column;
         align-items: center;
         bottom: 0;
+        padding-right: 50%;
     }
     .foot-arrow {
         font-size: .5rem;
