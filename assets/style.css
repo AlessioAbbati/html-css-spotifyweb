@@ -177,27 +177,32 @@ main {
     height: calc(100vh - 6rem);
     position: relative;
     margin-top: 1rem;
-    margin-left: 1rem;
     overflow: hidden;
 }
 .logo {
     width: 60%;
+    padding-left: 1rem;
     margin-bottom: 1rem;
 }
 .house-2, .glass-2, .lines-2 {
     width: 15%;
     vertical-align: middle;
 }
-.house-2 {
+.leftbar li {
+    padding-left: 1rem;
+}
+.leftbar li:hover {
     border-left: 2px solid #ADFF2F;
 }
 .playlist {
     color: white;
+    padding-left: 1rem;
     margin-bottom: .5rem;
     margin-top: 1rem;
 }
 .plus {
     font-size: 2rem;
+    padding-left: 1rem;
     margin-right: .3rem;
 }
 .leftbar .menu .p-1 {
@@ -208,6 +213,7 @@ main {
 }
 .end {
     position: absolute;
+    padding-left: 1rem;
     bottom: .5rem;
 }
 .p-2 {
