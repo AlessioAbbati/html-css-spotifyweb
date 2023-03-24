@@ -166,14 +166,18 @@ main {
     font-size: .8rem;
 }
 .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: calc(100vh - 6rem);
     position: relative;
     margin-top: 1rem;
     margin-left: 1rem;
+    overflow: hidden;
 }
 .logo {
     width: 60%;
-    margin-bottom: 1rem;
+    margin-bottom: -3rem;
 }
 .house-2, .glass-2, .lines-2 {
     width: 15%;
@@ -181,21 +185,26 @@ main {
 }
 .playlist {
     color: white;
-    margin-bottom: .5rem;
+    margin-bottom: -1.5rem;
+    margin-top: -1rem;
 }
 .plus {
     font-size: 2rem;
     margin-right: .3rem;
 }
 .leftbar .menu .p-1 {
-    margin-bottom: .7rem;
+    margin-bottom: -.7rem;
 }
 .leftbar .menu p a {
     vertical-align: middle;
 }
 .end {
-    position: absolute;
-    bottom: .5rem;
+    /*position: absolute;
+    bottom: .5rem;*/
+    display: flex;
+    align-self: self-end;
+    flex-direction: column;
+    margin-bottom: .5rem;
 }
 .p-2 {
     margin-bottom: .4rem;
