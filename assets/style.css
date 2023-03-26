@@ -101,12 +101,6 @@ main {
 .container .c-list .list-item .green:hover {
     opacity: 1;
 }
-.container .c-list li .list-line {
-    margin-top: .1rem;
-    color: #ADFF2F;
-    margin-left: 1.3rem;
-    margin-right: 1.3rem;
-}
 .container h2 {
     color: white;
     margin-left: 1rem;
