@@ -406,6 +406,7 @@ main {
 }
 .music {
     display: flex;
+    width: 100%;
 }
 .footbar-dx {
     max-width: 20%;
