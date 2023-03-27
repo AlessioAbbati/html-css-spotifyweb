@@ -344,7 +344,7 @@ main {
     color: white;
 }
 .footbar .footbar-sx .items {
-    margin-left: 2rem;
+    margin-left: 1rem;
     display: flex;
     flex-direction: column;
 }
