@@ -370,6 +370,7 @@ main {
 }
 .footbar .footbar-cnt .music .white, .gray {
     display: inline-block;
+
 }
 .footbar .footbar-cnt .music .white {
     width: 6rem;
@@ -400,6 +401,8 @@ main {
 }
 .music {
     display: flex;
+    justify-content: center;
+    width: 60%;
 }
 .footbar-dx {
     width: 20%;
@@ -466,8 +469,3 @@ main {
 }
     
 
-@media (max-width: 699px) {
-    .music {
-        width: 100%;
-    }
-}
